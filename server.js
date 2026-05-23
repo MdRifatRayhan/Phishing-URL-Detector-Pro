@@ -53,6 +53,15 @@ app.post('/analyze', async (req, res) => {
 
     res.json({ result, history });
 });
+// সবশেষ ৫টি হিস্ট্রি সরাসরি পাওয়ার জন্য নতুন এন্ডপয়েন্ট
+app.get('/history', async (req, res) => {
+    try {
+        const history = await Analysis.find().sort({ date: -1 }).limit(5);
+        res.json(history);
+    } catch (err) {
+        res.status(500).json({ error: "Could not fetch history" });
+    }
+});
 
 // ৪. সার্ভার পোর্ট
 const PORT = process.env.PORT || 3000;

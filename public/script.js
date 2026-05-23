@@ -104,3 +104,13 @@ function downloadReport() {
     downloadAnchorNode.click();
     downloadAnchorNode.remove();
 }
+// পেজ লোড হওয়ার সাথে সাথে হিস্ট্রি দেখানোর জন্য
+window.onload = async () => {
+    try {
+        const response = await fetch('/history');
+        const history = await response.json();
+        updateHistory(history);
+    } catch (err) {
+        console.log("Initial history fetch failed.");
+    }
+};
