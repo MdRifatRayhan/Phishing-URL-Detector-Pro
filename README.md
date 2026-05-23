@@ -28,7 +28,7 @@ Click here to view the live app : https://phishguard-pro-sjfc.onrender.com
 ## ⚙️ Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MdRifatRayhan/Phishing-URL-Detector-Pro
+   git clone: https://github.com/MdRifatRayhan/Phishing-URL-Detector-Pro
 
 
 # 🛡️ PhishGuard Setup & Usage
