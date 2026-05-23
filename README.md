@@ -3,7 +3,7 @@
 PhishGuard is a full-stack cybersecurity web application designed to analyze URLs for potential phishing threats. It combines **Rule-based Heuristics** with **Real-time Threat Intelligence** using the VirusTotal API to provide a comprehensive risk score.
 
 ## 🚀 Live Demo
-Click here to view the live app : [https://phishguard-pro-sjfc.onrender.com](url)
+Click here to view the live app : https://phishguard-pro-sjfc.onrender.com
 
 ## ✨ Key Features
 - **Heuristic Analysis:** Detects insecure HTTP protocols, suspicious keywords (login, bank, verify), and unusually long URLs.
@@ -28,12 +28,12 @@ Click here to view the live app : [https://phishguard-pro-sjfc.onrender.com](url
 ## ⚙️ Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/MdRifatRayhan/Phishing-URL-Detector-Pro](url)
+   git clone https://github.com/MdRifatRayhan/Phishing-URL-Detector-Pro
 
 
 # 🛡️ PhishGuard Setup & Usage
 
-### 🚀 Live Demo: [https://phishguard-pro-sjfc.onrender.com](url)
+### 🚀 Live Demo: https://phishguard-pro-sjfc.onrender.com
 
 ### ⚙️ Steps to Run Locally:
 1. Install dependencies:
